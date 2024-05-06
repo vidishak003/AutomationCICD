@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-24T18:29:31 IST" name="Suite" finished-at="2024-04-24T18:29:51 IST" duration-ms="20426">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:SeleniumFrameworkDesign.ErrorValidation@6a4f1a55]" name="LoginErrorValidation" class="SeleniumFrameworkDesign.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="StandAloneTest.standalone(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.StandAloneTest@45d84a20]" name="standalone" class="SeleniumFrameworkDesign.StandAloneTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-04-24T18:29:31 IST" name="ErrorValidationTest" finished-at="2024-04-24T18:29:43 IST" duration-ms="12239">
+      <class name="SeleniumFrameworkDesign.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFrameworkDesign.ErrorValidation@6a4f1a55]" started-at="2024-04-24T18:29:31 IST" name="launchApplication" finished-at="2024-04-24T18:29:35 IST" duration-ms="4512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:SeleniumFrameworkDesign.ErrorValidation@6a4f1a55]" started-at="2024-04-24T18:29:35 IST" name="LoginErrorValidation" finished-at="2024-04-24T18:29:36 IST" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFrameworkDesign.ErrorValidation@6a4f1a55]" started-at="2024-04-24T18:29:36 IST" name="tearDown" finished-at="2024-04-24T18:29:36 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFrameworkDesign.ErrorValidation@6a4f1a55]" started-at="2024-04-24T18:29:36 IST" name="launchApplication" finished-at="2024-04-24T18:29:39 IST" duration-ms="3224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:SeleniumFrameworkDesign.ErrorValidation@6a4f1a55]" started-at="2024-04-24T18:29:39 IST" name="ProductErrorValidation" finished-at="2024-04-24T18:29:43 IST" duration-ms="3368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFrameworkDesign.ErrorValidation@6a4f1a55]" started-at="2024-04-24T18:29:43 IST" name="tearDown" finished-at="2024-04-24T18:29:43 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumFrameworkDesign.ErrorValidation -->
+    </test> <!-- ErrorValidationTest -->
+    <test started-at="2024-04-24T18:29:31 IST" name="StandAloneTest" finished-at="2024-04-24T18:29:51 IST" duration-ms="20426">
+      <class name="SeleniumFrameworkDesign.StandAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFrameworkDesign.StandAloneTest@45d84a20]" started-at="2024-04-24T18:29:31 IST" name="launchApplication" finished-at="2024-04-24T18:29:35 IST" duration-ms="4395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="standalone(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.StandAloneTest@45d84a20]" started-at="2024-04-24T18:29:35 IST" name="standalone" data-provider="getData" finished-at="2024-04-24T18:29:39 IST" duration-ms="4083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Vidi1234, product=ZARA COAT 3, email=vidisha@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standalone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFrameworkDesign.StandAloneTest@45d84a20]" started-at="2024-04-24T18:29:39 IST" name="tearDown" finished-at="2024-04-24T18:29:39 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFrameworkDesign.StandAloneTest@45d84a20]" started-at="2024-04-24T18:29:39 IST" name="launchApplication" finished-at="2024-04-24T18:29:43 IST" duration-ms="3473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="standalone(java.util.HashMap)[pri:0, instance:SeleniumFrameworkDesign.StandAloneTest@45d84a20]" started-at="2024-04-24T18:29:43 IST" name="standalone" data-provider="getData" finished-at="2024-04-24T18:29:47 IST" duration-ms="4121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dipanshu@1234, product=ADIDAS ORIGINAL, email=dipanshu@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standalone -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFrameworkDesign.StandAloneTest@45d84a20]" started-at="2024-04-24T18:29:47 IST" name="tearDown" finished-at="2024-04-24T18:29:47 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFrameworkDesign.StandAloneTest@45d84a20]" started-at="2024-04-24T18:29:47 IST" name="launchApplication" finished-at="2024-04-24T18:29:50 IST" duration-ms="3527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistory()[pri:0, instance:SeleniumFrameworkDesign.StandAloneTest@45d84a20]" started-at="2024-04-24T18:29:50 IST" name="OrderHistory" finished-at="2024-04-24T18:29:51 IST" depends-on-methods="SeleniumFrameworkDesign.StandAloneTest.standalone" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFrameworkDesign.StandAloneTest@45d84a20]" started-at="2024-04-24T18:29:51 IST" name="tearDown" finished-at="2024-04-24T18:29:51 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumFrameworkDesign.StandAloneTest -->
+    </test> <!-- StandAloneTest -->
+  </suite> <!-- Suite -->
+</testng-results>
