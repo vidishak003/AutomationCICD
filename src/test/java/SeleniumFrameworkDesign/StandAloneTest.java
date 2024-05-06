@@ -19,6 +19,7 @@ import org.testng.annotations.Test;
 import SeleniumFrameworkDesign.TestComponents.BaseTest;
 
 public class StandAloneTest extends BaseTest{
+	//just adding new comments
 
 	//String productName="ZARA COAT 3";
 	@Test(dataProvider="getData", groups= {"Purchase"})
